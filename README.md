@@ -1,11 +1,11 @@
-###Debank Hisotry CSV君###
+### Debank Hisotry CSV君 ###
 Wallet関連で税金計算に困っている方は多いと思います。
 Cryptactとかにぶっこむ前に、整理されたTXのリストがCSVとかでほしくないですか？！？！？
 
 そこでDebankのHistory機能が割と良さそうだと思ったので見てみるとCSVにする機能がない！！！
 ということでDebankのHistoryをCSVに落とす機能を作りました。
 
-##使い方##
+## 使い方 ##
 ①DebankのHistoryページへGo!
 
 ②Historyを全部読み込む（ひたすら下スクロール）
@@ -22,7 +22,7 @@ Cryptactとかにぶっこむ前に、整理されたTXのリストがCSVとか�
 こんなかんじのやつできる
 ![image](https://user-images.githubusercontent.com/79858324/150699413-e9d9c296-4f24-4b5a-840a-1bda705ddcf1.png)
 
-##注意事項##
+## 注意事項 ##
 かなり雑なコードなので誰か整形してください
 何故か1行目がばぐったりします
 BSC, MaticなどではNFTが反映されていないためそこは手動での対応が必要そうです。
