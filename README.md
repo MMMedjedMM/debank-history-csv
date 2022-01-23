@@ -1,9 +1,10 @@
 ### Debank Hisotry CSV君 ###
 Wallet関連で税金計算に困っている方は多いと思います。
 Cryptactとかにぶっこむ前に、整理されたTXのリストがCSVとかでほしくないですか？！？！？
+特にEth以外のEVM系のマイナーチェーン！！！
 
-そこでDebankのHistory機能が割と良さそうだと思ったので見てみるとCSVにする機能がない！！！
-ということでDebankのHistoryをCSVに落とす機能を作りました。
+そこでDebankのHistory機能が割と良さそうだと思ったので見てみるがHistoryをCSVにする機能がない！！！
+ということでDebankのHistoryをCSVに落とす機能を作りました。（かなり雑）
 
 ## 使い方 ##
 ①DebankのHistoryページへGo!
@@ -15,7 +16,8 @@ Cryptactとかにぶっこむ前に、整理されたTXのリストがCSVとか�
 
 ④HistoryのTableのHTMLをコピー（対象Tableを右クリック->Copy->Copy Element)
 
-⑤コピーしたやつをPythonのScriptにコピペしてRun
+⑤コピーしたやつをPythonのmain.pyにコピペしてRun
+main.py -> text = 'ここにDebankのHistoryのテーブルいれる'
 
 ⑥ConsoleにCSVを意識したTextが張り出されるから、Textファイルにコピペして、拡張子をcsvに
 
